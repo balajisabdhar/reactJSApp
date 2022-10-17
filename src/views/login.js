@@ -68,7 +68,7 @@ const Login = (props) => {
               </div>
             </div>
 
-            <button className="logInStyle">Log In</button>
+            <button  onClick={()=>{ alert('Log In is clicked');}} className="logInStyle">Log In</button>
 
           </div>
           
